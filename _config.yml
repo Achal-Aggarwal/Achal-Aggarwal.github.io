@@ -17,6 +17,7 @@ author :
   twitter : achaldada
   facebook : achal.aggrwal
   gravatar : b69389c6bf157742b308f6ce98446fd9
+  skype: achal_aggarwal
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -32,8 +33,10 @@ markdown: kramdown
 
 #Navigation links
 navigation:
-  - title: Who?
+  - title: Who
     url: /index.html
+  - title: Where
+    url: /contact.html
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
