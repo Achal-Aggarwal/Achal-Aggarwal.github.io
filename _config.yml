@@ -28,6 +28,8 @@ author :
 #
 production_url : http://username.github.io
 
+markdown: kramdown
+
 #Navigation links
 navigation:
   - title: Home
