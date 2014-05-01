@@ -1,0 +1,45 @@
+<header>
+    <div class="container">
+        <div class="profile">
+            <div class="social">
+                <a href="http://twitter.com/{{site.author.twitter}}" target="_blank">
+                    <div data-picture data-alt="Twitter">
+                        <div data-src="{{ ASSET_PATH }}/images/twitter16.png"></div>
+                        <div data-src="{{ ASSET_PATH }}/images/twitter32.png"     data-media="(-webkit-min-device-pixel-ratio: 2)"></div>
+                        <noscript><img src="{{ ASSET_PATH }}/images/twitter16.png" alt="Twitter"></noscript>
+                    </div>
+                </a>
+                <a href="http://github.com/{{site.author.github}}" target="_blank">
+                    <div data-picture data-alt="Github">
+                        <div data-src="{{ ASSET_PATH }}/images/octocat16.png"></div>
+                        <div data-src="{{ ASSET_PATH }}/images/octocat32.png"     data-media="(-webkit-min-device-pixel-ratio: 2)"></div>
+                        <noscript><img src="{{ ASSET_PATH }}/images/octocat16.png" alt="Github"></noscript>
+                    </div>
+                </a>
+            </div>
+            <a href="http://facebook.com/{{site.author.facebook}}" target="_blank">
+            <div class="avatar" data-picture data-alt="avatar">
+                <div data-src="http://gravatar.com/avatar/{{ site.author.gravatar }}?s=54"></div>
+                <div data-src="http://gravatar.com/avatar/{{ site.author.gravatar }}?s=108" data-media="(-webkit-min-device-pixel-ratio: 2)"></div>
+                <noscript><img src="http://gravatar.com/avatar/{{ site.author.gravatar }}?s=54" alt="avatar"></noscript>
+            </div>
+            </a>
+        </div>
+        <h5 class="logo"><a href="{{ BASE_PATH }}">{{ site.author.name }}</a></h5>
+        <nav class="main">
+            <ul>
+                {% for link in site.navigation %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                        {% assign current = 'active' %}
+                    {% endif %}
+                    <li>
+                        <a href="{{ link.url }}" class="{{ current }}">{{ link.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="nav-slider">
+        </div>
+    </div>
+</header>
