@@ -33,9 +33,11 @@ markdown: kramdown
 
 #Navigation links
 navigation:
-  - title: Who
+  - text: Who
+    title: About me
     url: /index.html
-  - title: Where
+  - text: Where
+    title: Contact me
     url: /contact.html
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash

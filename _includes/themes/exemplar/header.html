@@ -34,7 +34,8 @@
                         {% assign current = 'active' %}
                     {% endif %}
                     <li>
-                        <a href="{{ link.url }}" class="{{ current }}">{{ link.title }}</a>
+                        <a href="{{ link.url }}" class="{{ current }}" title="{{ link.title }}">
+                        {{ link.text }}</a>
                     </li>
                 {% endfor %}
             </ul>
