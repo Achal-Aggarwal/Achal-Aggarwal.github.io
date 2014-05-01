@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : achalaggarwal.net
+title : Achal Aggarwal
 tagline: Let there be light...
 author :
   name : Achal Aggarwal
@@ -32,7 +32,7 @@ markdown: kramdown
 
 #Navigation links
 navigation:
-  - title: Home
+  - title: Who?
     url: /index.html
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
