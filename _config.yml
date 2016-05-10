@@ -39,6 +39,12 @@ navigation:
   - text: Where
     title: Contact me
     url: /contact.html
+  - text: Workerbee
+    title: Workerbee
+    url: /workerbee
+  - text: Arbiter
+    title: Arbiter
+    url: /arbiter
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
